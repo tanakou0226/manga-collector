@@ -1,2 +1,1 @@
 # manga-collector
-#たなこー！！！

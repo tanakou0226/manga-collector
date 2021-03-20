@@ -39,7 +39,7 @@ func main() {
 
 	//検索クエリの設定
 	v := url.Values{}
-	v.Set("count", "5")
+	v.Set("count", "2")
 	query := text + "exclude:retweets filter:images"
 	searchResult, _ := api.GetSearch(query, v)
 

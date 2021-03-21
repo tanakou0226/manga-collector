@@ -18,7 +18,7 @@ api = tweepy.API(auth)
 #キーワードで検索
 def log(user_name, count, id): #user_name アカウントのID 取得ツイート数 ツイートのID
     result_url = []
-    for i in range(0, 2):
+    for i in range(0, 3):
         results = api.user_timeline(screen_name=user_name, count=count, max_id=id)
         id = results[-1].id
         for result in results:
